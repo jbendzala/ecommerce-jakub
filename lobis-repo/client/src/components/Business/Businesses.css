@@ -1,0 +1,27 @@
+@media (min-width: 576px) {
+  .masonry {
+    column-count: 1;
+    margin-left: 240px
+  }
+}
+
+@media (min-width: 895px) {
+    .masonry {
+      column-count: 2;
+      margin-left: 240px
+    }
+  }
+  
+@media (min-width: 1225px) {
+    .masonry {
+      column-count: 3;
+      margin-left: 240px;
+    }
+  }
+  
+@media (min-width: 1565px) {
+    .masonry {
+      column-count: 4;
+      margin-left: 240px;
+    }
+  }

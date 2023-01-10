@@ -15,8 +15,8 @@ model User {
   createdAt DateTime  @default(now())
   username  String    @unique
   password  String
-  email     String    @unique
-  phone     Int       @unique
+  email     String?   @unique
+  phone     Int?      @unique
   business  Business?
 }
 

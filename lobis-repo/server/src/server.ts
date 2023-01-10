@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 //   }, 1);
 // });
 
-app.use('/api', protect, router);
+app.use('/admin', protect, router);
 
 app.post('/user', createNewUser);
 // user already exists

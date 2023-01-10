@@ -3,7 +3,24 @@ body {
   height: 100vh;
 }
 
-.firstdiv {
-  align-items: center;
-  justify-content: center;
+.bg {
+  /* background-image: linear-gradient(to right top, #d1d2f8, #c2c3f2, #bbbcf0, #b4b5ef, #adaeed, #a6a7eb, #9fa0e9, #9899e7); */
+  background-image: linear-gradient(to right top, #dedff9, #d2d3f5, #cacbf5, #c1c2f1, #bebfef, #b5b6ec, #b5b6ed, #9899e7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #bebfef inset !important;
+}
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill{
+  -webkit-text-fill-color: #4e50ad !important;
 }
